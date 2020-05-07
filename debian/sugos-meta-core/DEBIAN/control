@@ -1,0 +1,12 @@
+Package: sugos-meta-core
+Source: sugos-meta
+Version: 1.0
+Architecture: all
+Maintainer: Reza Zulkarnain (SUGOS) <sugosdeveloper@gmail.com>
+Installed-Size: 9
+Depends: ubuntu-system-adjustments, plymouth-theme-ubuntu-text
+Section: admin
+Priority: optional
+Homepage: https://github.com/SUGOS-GNU-Linux/sugos-meta
+Description: Core SUGOS Linux packages
+ Core SUGOS Linux packages.
