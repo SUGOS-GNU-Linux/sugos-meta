@@ -1,0 +1,20 @@
+Source: sugos-meta
+Section: admin
+Priority: optional
+Maintainer: Reza Zulkarnain (SUGOS) <sugosdeveloper@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.7
+Homepage: https://github.com/SUGOS-GNU-Linux/sugos-meta
+Vcs-Browser: https://github.com/SUGOS-GNU-Linux/sugos-meta.git
+
+Package: sugos-meta-xfce
+Architecture: all
+Depends: sugos-meta-core, gtk2-engines-xfce, thunar, thunar-archive-plugin, thunar-media-tags-plugin, thunar-volman, xfce4-appfinder, xfce4-panel, xfce4-places-plugin, xfce4-session, xfce4-settings, xfconf, xfdesktop4, xfce4-screenshooter, xfwm4, xfce4-cpufreq-plugin, xfce4-eyes-plugin, xfce4-mailwatch-plugin, xfce4-quicklauncher-plugin, xfce4-screenshooter-plugin, xfce4-systemload-plugin, xfce4-timer-plugin, xfce4-time-out-plugin, xfce4-verve-plugin, mugshot, xfce4-whiskermenu-plugin
+Description: Set of packages installed by default in the Xfce edition of SUGOS Linux
+ Set of packages installed by default in the Xfce edition of SUGOS Linux.
+
+Package: sugos-meta-core
+Architecture: all
+Depends: ubuntu-system-adjustments, plymouth-theme-ubuntu-text
+Description: Core SUGOS Linux packages
+ Core SUGOS Linux packages.
